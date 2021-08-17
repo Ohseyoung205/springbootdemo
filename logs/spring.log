@@ -1,0 +1,26 @@
+2021-08-02 21:32:47.059  INFO 82841 --- [main] com.spring.demo.Application              : Starting Application on Seyoungui-MacBookPro.local with PID 82841 (/Users/seyoungoh/worksapce/springbootdemo/target/classes started by seyoungoh in /Users/seyoungoh/worksapce/springbootdemo)
+2021-08-02 21:32:47.066  INFO 82841 --- [main] com.spring.demo.Application              : No active profile set, falling back to default profiles: default
+2021-08-02 21:32:47.129  INFO 82841 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@358ee631: startup date [Mon Aug 02 21:32:47 KST 2021]; root of context hierarchy
+2021-08-02 21:32:48.175  INFO 82841 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https)
+2021-08-02 21:32:48.221  INFO 82841 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-02 21:32:48.221  INFO 82841 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-08-02 21:32:48.228  INFO 82841 --- [main] o.a.catalina.core.AprLifecycleListener   : The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/seyoungoh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-08-02 21:32:48.323  INFO 82841 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-02 21:32:48.323  INFO 82841 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1194 ms
+2021-08-02 21:32:48.454  INFO 82841 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-08-02 21:32:48.457  INFO 82841 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-08-02 21:32:48.457  INFO 82841 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-08-02 21:32:48.457  INFO 82841 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-08-02 21:32:48.457  INFO 82841 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-08-02 21:32:48.707  INFO 82841 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-02 21:32:48.848  INFO 82841 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@358ee631: startup date [Mon Aug 02 21:32:47 KST 2021]; root of context hierarchy
+2021-08-02 21:32:48.972  INFO 82841 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.spring.demo.controller.TestController.hello()
+2021-08-02 21:32:48.975  INFO 82841 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-08-02 21:32:48.976  INFO 82841 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-08-02 21:32:48.996  INFO 82841 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-02 21:32:48.996  INFO 82841 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-02 21:32:49.101  INFO 82841 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-08-02 21:32:50.009  INFO 82841 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (https) with context path ''
+2021-08-02 21:32:50.013  INFO 82841 --- [main] com.spring.demo.Application              : Started Application in 3.295 seconds (JVM running for 3.663)
+2021-08-02 21:40:38.929  INFO 82841 --- [Thread-3] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@358ee631: startup date [Mon Aug 02 21:32:47 KST 2021]; root of context hierarchy
+2021-08-02 21:40:38.934  INFO 82841 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
